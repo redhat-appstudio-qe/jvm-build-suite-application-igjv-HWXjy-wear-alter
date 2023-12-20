@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-arkcci
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-jfgf-tenant/jvm-build-suite-application-igjv/jvm-build-suite-component-arkcci@sha256:a7d92101fbad7c6414ce07bb99f506fd061d7851c29243eb4683c6890ad1856e
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
