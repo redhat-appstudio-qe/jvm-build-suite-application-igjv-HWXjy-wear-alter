@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-arkcci
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-jfgf-tenant/jvm-build-suite-application-igjv/jvm-build-suite-component-arkcci@sha256:a7d92101fbad7c6414ce07bb99f506fd061d7851c29243eb4683c6890ad1856e
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
